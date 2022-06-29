@@ -61,7 +61,7 @@ body {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    color: #4783D9;
+    color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-link i {
@@ -69,13 +69,8 @@ body {
     font-size: 30px;
 }
 
-.icon-rotate i svg {
+.show i {
     transform: rotate(180deg);
-}
-
-.navbar-light .navbar-nav .nav-link:hover i,
-.navbar-light .navbar-nav .nav-link:focus i {
-    color: #4783D9;
 }
 
 

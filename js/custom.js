@@ -1,6 +1,10 @@
 $(function () {
     // navbar icon rotate  //
-    
+    $(function () {
+        $(".dropdown .dropdown-menu.show").click(function () {
+            $(".fa-angle-down").toggleClass("fa-angle-up");
+        })
+    });
 
     // banner slider //
     $('.slider').slick({
