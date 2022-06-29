@@ -144,10 +144,12 @@ body {
 .news {
     bottom: 45px;
 }
+
 .news-text {
     border-radius: 8px;
     background: rgba(224, 230, 239, 0.12);
 }
+
 .news-text ::after {
     top: 50%;
     left: 20px;
@@ -169,7 +171,7 @@ body {
 }
 
 .news .news-text p {
-    font-size: 16pxs;
+    font-size: 16px;
 }
 
 
@@ -179,3 +181,89 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner .home-text h3 {
+        font-size: 36px;
+    }
+
+    .banner .home-text p {
+        font-size: 14px;
+    }
+
+    .news .news-text h5 {
+        font-size: 14px;
+    }
+
+
+    .news .news-text h5 {
+        font-size: 14px;
+    }
+
+    .banner .home-text .btn {
+        height: 45px;
+        width: 170px;
+        font-size: 15px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .navbar-light .navbar-nav .nav-link i {
+        font-size: 20px;
+    }
+    .news {
+    bottom: 30px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+    .banner .home-text h3 {
+        font-size: 40px;
+    }
+
+    .banner .home-text p {
+        font-size: 15px;
+    }
+
+    .news .news-text h5 {
+        font-size: 16px;
+    }
+
+
+    .news .news-text h5 {
+        font-size: 15px;
+    }
+
+    .banner .home-text .btn {
+        height: 45px;
+        width: 170px;
+        font-size: 15px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+    .navbar-light .navbar-nav .nav-link i {
+        font-size: 25px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1300px) and (max-width: 1399.98px) {
+    .banner .home-text h3 {
+        font-size: 48px;
+    }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    .banner .home-text h3 {
+        font-size: 55px;
+    }
+
+}
